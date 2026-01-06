@@ -7,7 +7,7 @@ const categoriesData = [
     quote: "Natural greenery with modern elegance",
     hero: "/images/grass_hero.jpg",
     products: [
-      { name: "Artificial Grass", img: "/images/artificial_grass.jpg" },
+      { name: "Artificial Grass", img: "images/artificial_grass.jpg" },
       { name: "Artificial Flowers", img: "/images/artificial_flowers.jpg" },
       { name: "Artificial Plants", img: "/images/artificial_plants.jpg" },
       { name: "Vertical Grass", img: "/images/vertical_grass.jpg" },
@@ -66,11 +66,11 @@ const categoriesData = [
   {
     name: "Pebble Stones",
     quote: "Nature-inspired surface details",
-    hero: "/images/pebble_hero.jpg",
+    hero: "https://res.cloudinary.com/dke6jolvx/image/upload/v1767743326/pebble_hero_oambeg.jpg",
     products: [
-      { name: "Assorted Pebbles", img: "/images/assorted_pebble.jpg" },
-      { name: "Polished Pebbles", img: "/images/polished.jpg" },
-      { name: "Cobble Stones", img: "/images/cobble_stone.jpg" },
+      { name: "Assorted Pebbles", img: "https://res.cloudinary.com/dke6jolvx/image/upload/v1767743289/assorted_pebble_utynlb.jpg" },
+      { name: "Polished Pebbles", img: "https://res.cloudinary.com/dke6jolvx/image/upload/v1767743326/polished_ejhyxv.jpg" },
+      { name: "Cobble Stones", img: "https://res.cloudinary.com/dke6jolvx/image/upload/v1767743293/cobble_stone_pq7vcx.jpg" },
       {
         name: "Indoor & Outdoor Fountains",
         img: "/images/fountain.jpg",
