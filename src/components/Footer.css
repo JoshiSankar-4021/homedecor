@@ -1,0 +1,95 @@
+.decor-footer { 
+  background: linear-gradient(135deg, #0b2a59, #020c1b);
+  color: white;
+  position: relative;
+  overflow: hidden;
+  padding: 60px 50px 25px;
+  font-family: "Playfair Display", serif;
+}
+
+/* WE DEAL IN */
+.footer-deal { 
+  text-align: center;
+  padding: 40px 20px 20px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.footer-deal h3 { 
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #c9a74f;
+  margin-bottom: 18px;
+  font-weight: 600;
+}
+.footer-deal p { 
+  max-width: 1100px;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 1.9;
+  color: #e6ecf5;
+  opacity: 0.9;
+}
+.footer-deal span { 
+  color: #c9a74f;
+  margin: 0 6px;
+}
+
+/* TOP GRID – same structure on all screens */
+.footer-top { 
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 40px;
+  position: relative;
+  z-index: 2;
+}
+
+/* COLUMN HEADINGS */
+.footer-col h4 { 
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  margin-bottom: 18px;
+  font-weight: 600;
+  color: #c9a74f;
+}
+
+/* LINKS */
+.footer-col ul { 
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-col ul li { 
+  margin-bottom: 10px;
+}
+.footer-col ul li a { 
+  color: #e6ecf5;
+  text-decoration: none;
+  font-size: 14px;
+  opacity: 0.85;
+  transition: 0.3s;
+  display: block;
+}
+.footer-col ul li a:hover { 
+  color: #c9a74f;
+  padding-left: 6px;
+}
+
+/* TEXT */
+.footer-col p { 
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #e6ecf5;
+  opacity: 0.9;
+  line-height: 1.8;
+}
+
+/* OPTIONAL: keep layout stable on small screens (no grid changes) */
+@media (max-width: 600px) {
+  .decor-footer {
+    padding: 40px 20px 20px;
+  }
+  /* Still 4 columns, but allow horizontal scroll instead of stacking */
+  .footer-top {
+    overflow-x: auto;
+  }
+}
