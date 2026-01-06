@@ -7,7 +7,7 @@ const categoriesData = [
     quote: "Natural greenery with modern elegance",
     hero: "/images/grass_hero.jpg",
     products: [
-      { name: "Artificial Grass", img: "/images/artificial_grass.jpg" },
+      { name: "Artificial Grass", img: "images/artificial_grass.jpg" },
       { name: "Artificial Flowers", img: "/images/artificial_flowers.jpg" },
       { name: "Artificial Plants", img: "/images/artificial_plants.jpg" },
       { name: "Vertical Grass", img: "/images/vertical_grass.jpg" },
